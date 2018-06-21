@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bolt.quizme.quizme">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Scriptures"
+            android:noHistory="true" />
+        <activity android:name=".Methamat" />
+        <activity android:name=".End" />
+        <activity android:name=".Scriptures2" />
+        <activity android:name=".Mathemata2" />
+        <activity android:name=".Mathemata3" />
+        <activity android:name=".Mathematica4" />
+        <activity android:name=".Scriptures3" />
+        <activity android:name=".Scriptures4" />
+        <activity android:name=".Cars" />
+        <activity android:name=".Cars2" />
+        <activity android:name=".Cars3" />
+        <activity android:name=".Cars4" />
+        <activity android:name=".Flag" />
+        <activity android:name=".Sports" />
+        <activity android:name=".Sports2" />
+        <activity android:name=".Sports4" />
+        <activity android:name=".Sports3" />
+        <activity android:name=".Flag2" />
+        <activity android:name=".Flag3" />
+        <activity android:name=".Flag4" />
+        <activity android:name=".Logos" />
+        <activity android:name=".Logos2" />
+        <activity android:name=".Logos3" />
+        <activity android:name=".Logos4"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".End">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        app:srcCompat="@drawable/quizme" />
+    <TextView
+        android:id="@+id/ScOrE"
+        android:layout_width="128dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="140dp"
+        android:text="Score"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="81dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="160dp"
+        android:text=" 0"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        app:srcCompat="@drawable/first" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/homeicon"
+        android:onClick="end"/>
+
+</LinearLayout>

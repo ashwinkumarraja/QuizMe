@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="195dp"
+        android:layout_height="145dp"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:onClick="TapMyth"
+        app:srcCompat="@drawable/myth" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="195dp"
+        android:layout_height="145dp"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:onClick="TapMath"
+        app:srcCompat="@drawable/math" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="195dp"
+        android:layout_height="145dp"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:onClick="TapCars"
+        app:srcCompat="@drawable/car" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="195dp"
+        android:layout_height="145dp"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:onClick="TapFlag"
+        app:srcCompat="@drawable/flag" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="197dp"
+        android:layout_height="114dp"
+        android:layout_column="0"
+        android:layout_row="0"
+        app:srcCompat="@drawable/quizme" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="195dp"
+        android:layout_height="145dp"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:onClick="TapSports"
+        app:srcCompat="@drawable/sports" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="195dp"
+        android:layout_height="145dp"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:onClick="TapLogos"
+        app:srcCompat="@drawable/logos" />
+
+
+</GridLayout>

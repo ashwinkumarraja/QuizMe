@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sports">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ScOrE"
+        android:layout_width="128dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="140dp"
+        android:text="Score"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/scorem1"
+        android:layout_width="81dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="160dp"
+        android:text="0"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="When were the first recorded Olympics held?"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/opt1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_selector"
+        android:text="825BC"
+        android:textAllCaps="false"
+        android:tag="1"/>
+
+    <Button
+        android:id="@+id/opt2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_selector2"
+        android:text="776BC"
+        android:textAllCaps="false"
+        android:tag="2"/>
+
+    <Button
+        android:id="@+id/opt3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_selector2"
+        android:text="320BC"
+        android:textAllCaps="false"
+        android:tag="3"/>
+
+    <Button
+        android:id="@+id/opt4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_selector"
+        android:tag="4"
+        android:text="80AD"
+        android:textAllCaps="false" />
+
+</LinearLayout>
